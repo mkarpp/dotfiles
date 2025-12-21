@@ -1,18 +1,3 @@
-"Plugins with vim-plug
-call plug#begin('~/.vim/plugged')
-
-"Plug 'tpope/vim-sensible'
-Plug 'dense-analysis/ale'
-Plug 'ajh17/VimCompletesMe'
-Plug 'danilo-augusto/vim-afterglow'
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'junegunn/fzf.vim'
-Plug 'ctrlpvim/ctrlp.vim'
-
-call plug#end()
-
-colorscheme afterglow
-
 set autowriteall
 set nocompatible
 set expandtab
