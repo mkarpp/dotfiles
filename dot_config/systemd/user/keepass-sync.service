@@ -1,0 +1,11 @@
+[Unit]
+Description=Watch and sync KeePass database to Google Drive
+After=network-online.target
+
+[Service]
+ExecStart=%h/bin/keepass-sync.sh
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=default.target
